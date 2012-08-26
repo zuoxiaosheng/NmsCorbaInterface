@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2011-3-8 22:00:57 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="dao.Hop" table="hop" catalog="test">
+        <composite-id name="id" class="dao.HopId">
+            <key-property name="mplsTunnelHopListIndex" type="int">
+                <column name="mplsTunnelHopListIndex" />
+            </key-property>
+            <key-property name="mplsTunnelHopPathOptionIndex" type="int">
+                <column name="mplsTunnelHopPathOptionIndex" />
+            </key-property>
+            <key-property name="mplsTunnelHopIndex" type="int">
+                <column name="mplsTunnelHopIndex" />
+            </key-property>
+        </composite-id>
+        <property name="mplsTunnelHopAddrType" type="int">
+            <column name="mplsTunnelHopAddrType" not-null="true" />
+        </property>
+        <property name="mplsTunnelHopIpv4addr" type="string">
+            <column name="mplsTunnelHopIpv4Addr" length="100" not-null="true" />
+        </property>
+        <property name="mplsTunnelHopIpv4prefixLen" type="java.lang.Integer">
+            <column name="mplsTunnelHopIpv4PrefixLen" />
+        </property>
+        <property name="mplsTunnelHopIpv6addr" type="java.lang.Long">
+            <column name="mplsTunnelHopIpv6Addr" />
+        </property>
+        <property name="mplsTunnelHopIpv6prefixlen" type="java.lang.Integer">
+            <column name="mplsTunnelHopIpv6Prefixlen" />
+        </property>
+        <property name="mplsTunnelHopAsNumber" type="java.lang.Integer">
+            <column name="mplsTunnelHopAsNumber" />
+        </property>
+        <property name="mplsTunnelHopLspId" type="java.lang.Integer">
+            <column name="mplsTunnelHopLspId" />
+        </property>
+        <property name="mplsTunnelHopType" type="java.lang.Integer">
+            <column name="mplsTunnelHopType" />
+        </property>
+        <property name="mplsTunnelHopIncluedeExclude" type="java.lang.Integer">
+            <column name="mplsTunnelHopIncluedeExclude" />
+        </property>
+        <property name="mplsTunnelHopPathOptionName" type="string">
+            <column name="mplsTunnelHopPathOptionName" length="100" />
+        </property>
+        <property name="mplsTunnelHopEntryPathComp" type="java.lang.Integer">
+            <column name="mplsTunnelHopEntryPathComp" />
+        </property>
+        <property name="mplsTunnelHopRowStatus" type="java.lang.Integer">
+            <column name="mplsTunnelHopRowStatus" />
+        </property>
+        <property name="mplsTunnelHopStorageType" type="java.lang.Integer">
+            <column name="mplsTunnelHopStorageType" />
+        </property>
+        <property name="mplsTunnelHopUnnumIfId" type="string">
+            <column name="mplsTunnelHopUnnumIfID" length="100" not-null="true" />
+        </property>
+        <property name="mplsTunnelHopUnnumIfRouterId" type="java.lang.Long">
+            <column name="mplsTunnelHopUnnumIfRouterID" />
+        </property>
+        <property name="mplsTunnelHopUseExplicitLabel" type="java.lang.Integer">
+            <column name="mplsTunnelHopUseExplicitLabel" />
+        </property>
+        <property name="mplsTunnelHopExplictLabelType" type="java.lang.Integer">
+            <column name="mplsTunnelHopExplictLabelType" />
+        </property>
+        <property name="mplsTunnelHopExplictLabel" type="java.lang.Integer">
+            <column name="mplsTunnelHopExplictLabel" />
+        </property>
+        <property name="mplsTunnelHopUseRevPathExpLbl" type="java.lang.Integer">
+            <column name="mplsTunnelHopUseRevPathExpLbl" />
+        </property>
+        <property name="mplsTunnelHopRevPathExpLblType" type="java.lang.Integer">
+            <column name="mplsTunnelHopRevPathExpLblType" />
+        </property>
+        <property name="mplsTunnelHopRevPathExpLbl" type="java.lang.Integer">
+            <column name="mplsTunnelHopRevPathExpLbl" />
+        </property>
+    </class>
+</hibernate-mapping>

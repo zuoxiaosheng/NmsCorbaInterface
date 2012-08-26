@@ -1,0 +1,146 @@
+10
+
+dir
+32
+svn://202.120.32.216/OTNRSP/trunk/Projects/CORBA/build/classes
+svn://202.120.32.216/OTNRSP
+
+
+
+2011-03-08T05:57:18.131140Z
+32
+zuoxiaosheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2a9dd6af-fd4f-4a15-bf2c-fb18686c3274
+
+callSNC
+dir
+
+emsSessionFactory
+dir
+
+mtnmVersion
+dir
+
+subnetworkConnection
+dir
+
+session
+dir
+
+subscription
+dir
+
+aSAP
+dir
+
+entities
+dir
+
+common
+dir
+
+emsSession
+dir
+
+topologicalLink
+dir
+
+emsMgr
+dir
+
+hibernate.cfg.xml
+file
+33
+
+
+
+2011-03-08T14:07:56.215000Z
+922b50d68e5cada0cc90e20c9669811c
+2011-03-09T01:54:12.607074Z
+33
+zuoxiaosheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1020
+
+nmsSession
+dir
+
+managedElementManager
+dir
+
+performance
+dir
+
+globaldefs
+dir
+
+assets
+dir
+
+alarmMgr
+dir
+
+dao
+dir
+
+terminationPoint
+dir
+
+managedElement
+dir
+
+equipment
+dir
+
+notifications
+dir
+
+tables
+dir
+
+multiLayerSubnetwork
+dir
+
+transmissionParameters
+dir
+
+com
+dir
+
+Client
+dir
+

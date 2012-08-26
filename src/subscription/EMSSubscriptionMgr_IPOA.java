@@ -1,0 +1,183 @@
+package subscription;
+
+
+/**
+ * Generated from IDL interface "EMSSubscriptionMgr_I".
+ *
+ * @author JacORB IDL compiler V 2.3.1, 27-May-2009
+ * @version generated at 2010-12-23 15:51:58
+ */
+
+public abstract class EMSSubscriptionMgr_IPOA
+	extends org.omg.PortableServer.Servant
+	implements org.omg.CORBA.portable.InvokeHandler, subscription.EMSSubscriptionMgr_IOperations
+{
+	static private final java.util.Hashtable m_opsHash = new java.util.Hashtable();
+	static
+	{
+		m_opsHash.put ( "setNativeEMSName", new java.lang.Integer(0));
+		m_opsHash.put ( "setAdditionalInfo", new java.lang.Integer(1));
+		m_opsHash.put ( "setUserLabel", new java.lang.Integer(2));
+		m_opsHash.put ( "suspendSubscription", new java.lang.Integer(3));
+		m_opsHash.put ( "getCapabilities", new java.lang.Integer(4));
+		m_opsHash.put ( "resumeSubscription", new java.lang.Integer(5));
+		m_opsHash.put ( "setLocation", new java.lang.Integer(6));
+		m_opsHash.put ( "unsubscribe", new java.lang.Integer(7));
+	}
+	private String[] ids = {"IDL:mtnm.tmforum.org/subscription/EMSSubscriptionMgr_I:1.0","IDL:mtnm.tmforum.org/common/Common_I:1.0"};
+	public subscription.EMSSubscriptionMgr_I _this()
+	{
+		return subscription.EMSSubscriptionMgr_IHelper.narrow(_this_object());
+	}
+	public subscription.EMSSubscriptionMgr_I _this(org.omg.CORBA.ORB orb)
+	{
+		return subscription.EMSSubscriptionMgr_IHelper.narrow(_this_object(orb));
+	}
+	public org.omg.CORBA.portable.OutputStream _invoke(String method, org.omg.CORBA.portable.InputStream _input, org.omg.CORBA.portable.ResponseHandler handler)
+		throws org.omg.CORBA.SystemException
+	{
+		org.omg.CORBA.portable.OutputStream _out = null;
+		// do something
+		// quick lookup of operation
+		java.lang.Integer opsIndex = (java.lang.Integer)m_opsHash.get ( method );
+		if ( null == opsIndex )
+			throw new org.omg.CORBA.BAD_OPERATION(method + " not found");
+		switch ( opsIndex.intValue() )
+		{
+			case 0: // setNativeEMSName
+			{
+			try
+			{
+				globaldefs.NameAndStringValue_T[] _arg0=globaldefs.NVSList_THelper.read(_input);
+				java.lang.String _arg1=_input.read_string();
+				_out = handler.createReply();
+				setNativeEMSName(_arg0,_arg1);
+			}
+			catch(globaldefs.ProcessingFailureException _ex0)
+			{
+				_out = handler.createExceptionReply();
+				globaldefs.ProcessingFailureExceptionHelper.write(_out, _ex0);
+			}
+				break;
+			}
+			case 1: // setAdditionalInfo
+			{
+			try
+			{
+				globaldefs.NameAndStringValue_T[] _arg0=globaldefs.NVSList_THelper.read(_input);
+				globaldefs.NVSList_THolder _arg1= new globaldefs.NVSList_THolder();
+				_arg1._read (_input);
+				_out = handler.createReply();
+				setAdditionalInfo(_arg0,_arg1);
+				globaldefs.NVSList_THelper.write(_out,_arg1.value);
+			}
+			catch(globaldefs.ProcessingFailureException _ex0)
+			{
+				_out = handler.createExceptionReply();
+				globaldefs.ProcessingFailureExceptionHelper.write(_out, _ex0);
+			}
+				break;
+			}
+			case 2: // setUserLabel
+			{
+			try
+			{
+				globaldefs.NameAndStringValue_T[] _arg0=globaldefs.NVSList_THelper.read(_input);
+				java.lang.String _arg1=_input.read_string();
+				boolean _arg2=_input.read_boolean();
+				_out = handler.createReply();
+				setUserLabel(_arg0,_arg1,_arg2);
+			}
+			catch(globaldefs.ProcessingFailureException _ex0)
+			{
+				_out = handler.createExceptionReply();
+				globaldefs.ProcessingFailureExceptionHelper.write(_out, _ex0);
+			}
+				break;
+			}
+			case 3: // suspendSubscription
+			{
+			try
+			{
+				int _arg0=_input.read_long();
+				_out = handler.createReply();
+				_out.write_boolean(suspendSubscription(_arg0));
+			}
+			catch(globaldefs.ProcessingFailureException _ex0)
+			{
+				_out = handler.createExceptionReply();
+				globaldefs.ProcessingFailureExceptionHelper.write(_out, _ex0);
+			}
+				break;
+			}
+			case 4: // getCapabilities
+			{
+			try
+			{
+				common.CapabilityList_THolder _arg0= new common.CapabilityList_THolder();
+				_out = handler.createReply();
+				getCapabilities(_arg0);
+				common.CapabilityList_THelper.write(_out,_arg0.value);
+			}
+			catch(globaldefs.ProcessingFailureException _ex0)
+			{
+				_out = handler.createExceptionReply();
+				globaldefs.ProcessingFailureExceptionHelper.write(_out, _ex0);
+			}
+				break;
+			}
+			case 5: // resumeSubscription
+			{
+			try
+			{
+				int _arg0=_input.read_long();
+				_out = handler.createReply();
+				_out.write_boolean(resumeSubscription(_arg0));
+			}
+			catch(globaldefs.ProcessingFailureException _ex0)
+			{
+				_out = handler.createExceptionReply();
+				globaldefs.ProcessingFailureExceptionHelper.write(_out, _ex0);
+			}
+				break;
+			}
+			case 6: // setLocation
+			{
+			try
+			{
+				globaldefs.NameAndStringValue_T[] _arg0=globaldefs.NVSList_THelper.read(_input);
+				java.lang.String _arg1=_input.read_string();
+				_out = handler.createReply();
+				setLocation(_arg0,_arg1);
+			}
+			catch(globaldefs.ProcessingFailureException _ex0)
+			{
+				_out = handler.createExceptionReply();
+				globaldefs.ProcessingFailureExceptionHelper.write(_out, _ex0);
+			}
+				break;
+			}
+			case 7: // unsubscribe
+			{
+			try
+			{
+				int _arg0=_input.read_long();
+				_out = handler.createReply();
+				_out.write_boolean(unsubscribe(_arg0));
+			}
+			catch(globaldefs.ProcessingFailureException _ex0)
+			{
+				_out = handler.createExceptionReply();
+				globaldefs.ProcessingFailureExceptionHelper.write(_out, _ex0);
+			}
+				break;
+			}
+		}
+		return _out;
+	}
+
+	public String[] _all_interfaces(org.omg.PortableServer.POA poa, byte[] obj_id)
+	{
+		return ids;
+	}
+}

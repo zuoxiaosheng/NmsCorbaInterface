@@ -1,0 +1,746 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+	<head>
+		<title>Hibernate Mappings - Entity Info</title>
+		<link rel="stylesheet" type="text/css" href="../../assets/doc-style.css" title="Style"/>
+	</head>
+	<body>
+
+	<div id="header">
+
+		<div id="logo">
+			<a href="http://www.hibernate.org/" target="_blank">
+				<img src="../../assets/hibernate_logo.gif" alt="Hibernate"/>
+			</a>
+		</div>
+
+		<ul><li><a href="../../tables/index.html" target="_top">Tables</a></li><li><a href="../index.html" target="_top">Entities</a></li></ul>
+
+		<hr/>
+
+	</div>
+
+		<h4>
+				dao
+		</h4>
+		<h2>Entity Hop</h2>
+		
+		<ul class="EntityHierarchy">
+			<li>
+				dao.Hop
+			</li>
+		</ul>
+
+		<hr/>
+
+		
+			
+			<table id="identifier_summary">
+				<thead>
+					<tr>
+						<th class="MainTableHeading" colspan="4">
+							Identifier Summary
+						</th>
+					</tr>
+					<tr>
+						<th style="width: 14%">
+							Name
+						</th>
+						<th style="width: 14%">
+							Column
+						</th>
+						<th style="width: 14%">
+							Type
+						</th>
+						<th style="width: 58%">
+							Description
+						</th>
+					</tr>
+				</thead>
+
+				<tbody>
+							<tr>
+								<td rowspan="1">
+									<a href="#identifier_detail_mplsTunnelHopListIndex">
+										mplsTunnelHopListIndex
+									</a>
+								</td>
+
+										<td>
+											<a href="#property_summary">
+												mplsTunnelHopListIndex
+											</a>
+										</td>
+								
+								<td rowspan="1">
+										int
+								</td>
+
+								<td rowspan="1">
+										
+								</td>
+							</tr>
+							
+							<tr>
+								<td rowspan="1">
+									<a href="#identifier_detail_mplsTunnelHopPathOptionIndex">
+										mplsTunnelHopPathOptionIndex
+									</a>
+								</td>
+
+										<td>
+											<a href="#property_summary">
+												mplsTunnelHopPathOptionIndex
+											</a>
+										</td>
+								
+								<td rowspan="1">
+										int
+								</td>
+
+								<td rowspan="1">
+										
+								</td>
+							</tr>
+							
+							<tr>
+								<td rowspan="1">
+									<a href="#identifier_detail_mplsTunnelHopIndex">
+										mplsTunnelHopIndex
+									</a>
+								</td>
+
+										<td>
+											<a href="#property_summary">
+												mplsTunnelHopIndex
+											</a>
+										</td>
+								
+								<td rowspan="1">
+										int
+								</td>
+
+								<td rowspan="1">
+										
+								</td>
+							</tr>
+							
+				</tbody>
+			</table>
+		
+
+			<table id="property_summary">
+				<thead>
+					<tr>
+						<th class="MainTableHeading" colspan="5">
+							Property Summary
+						</th>
+					</tr>
+					<tr>
+						<th style="width: 14%">
+							Name
+						</th>
+						<th style="width: 14%">
+							Column
+						</th>
+						<th style="width: 14%">
+							Access
+						</th>
+						<th style="width: 14%">
+							Type
+						</th>
+						<th style="width: 44%">
+							Description
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+	
+						<tr>
+							<td rowspan="1">
+								<a href="#property_detail_mplsTunnelHopAddrType">
+									mplsTunnelHopAddrType
+								</a>
+							</td>
+	
+									<td>
+										<a href="#property_summary">
+											mplsTunnelHopAddrType
+										</a>
+									</td>
+	
+							<td rowspan="1">
+								property (<a href="#property_summary">get</a> / <a href="#property_summary">set</a>)
+							</td>
+	
+							<td rowspan="1">
+									int
+							</td>
+	
+							<td rowspan="1">
+									&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="1">
+								<a href="#property_detail_mplsTunnelHopAsNumber">
+									mplsTunnelHopAsNumber
+								</a>
+							</td>
+	
+									<td>
+										<a href="#property_summary">
+											mplsTunnelHopAsNumber
+										</a>
+									</td>
+	
+							<td rowspan="1">
+								property (<a href="#property_summary">get</a> / <a href="#property_summary">set</a>)
+							</td>
+	
+							<td rowspan="1">
+									Integer
+							</td>
+	
+							<td rowspan="1">
+									&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="1">
+								<a href="#property_detail_mplsTunnelHopEntryPathComp">
+									mplsTunnelHopEntryPathComp
+								</a>
+							</td>
+	
+									<td>
+										<a href="#property_summary">
+											mplsTunnelHopEntryPathComp
+										</a>
+									</td>
+	
+							<td rowspan="1">
+								property (<a href="#property_summary">get</a> / <a href="#property_summary">set</a>)
+							</td>
+	
+							<td rowspan="1">
+									int
+							</td>
+	
+							<td rowspan="1">
+									&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="1">
+								<a href="#property_detail_mplsTunnelHopExplictLabel">
+									mplsTunnelHopExplictLabel
+								</a>
+							</td>
+	
+									<td>
+										<a href="#property_summary">
+											mplsTunnelHopExplictLabel
+										</a>
+									</td>
+	
+							<td rowspan="1">
+								property (<a href="#property_summary">get</a> / <a href="#property_summary">set</a>)
+							</td>
+	
+							<td rowspan="1">
+									Integer
+							</td>
+	
+							<td rowspan="1">
+									&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="1">
+								<a href="#property_detail_mplsTunnelHopExplictLabelType">
+									mplsTunnelHopExplictLabelType
+								</a>
+							</td>
+	
+									<td>
+										<a href="#property_summary">
+											mplsTunnelHopExplictLabelType
+										</a>
+									</td>
+	
+							<td rowspan="1">
+								property (<a href="#property_summary">get</a> / <a href="#property_summary">set</a>)
+							</td>
+	
+							<td rowspan="1">
+									Integer
+							</td>
+	
+							<td rowspan="1">
+									&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="1">
+								<a href="#property_detail_mplsTunnelHopIncluedeExclude">
+									mplsTunnelHopIncluedeExclude
+								</a>
+							</td>
+	
+									<td>
+										<a href="#property_summary">
+											mplsTunnelHopIncluedeExclude
+										</a>
+									</td>
+	
+							<td rowspan="1">
+								property (<a href="#property_summary">get</a> / <a href="#property_summary">set</a>)
+							</td>
+	
+							<td rowspan="1">
+									int
+							</td>
+	
+							<td rowspan="1">
+									&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="1">
+								<a href="#property_detail_mplsTunnelHopIpv4addr">
+									mplsTunnelHopIpv4addr
+								</a>
+							</td>
+	
+									<td>
+										<a href="#property_summary">
+											mplsTunnelHopIpv4Addr
+										</a>
+									</td>
+	
+							<td rowspan="1">
+								property (<a href="#property_summary">get</a> / <a href="#property_summary">set</a>)
+							</td>
+	
+							<td rowspan="1">
+									Long
+							</td>
+	
+							<td rowspan="1">
+									&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="1">
+								<a href="#property_detail_mplsTunnelHopIpv4prefixLen">
+									mplsTunnelHopIpv4prefixLen
+								</a>
+							</td>
+	
+									<td>
+										<a href="#property_summary">
+											mplsTunnelHopIpv4PrefixLen
+										</a>
+									</td>
+	
+							<td rowspan="1">
+								property (<a href="#property_summary">get</a> / <a href="#property_summary">set</a>)
+							</td>
+	
+							<td rowspan="1">
+									Integer
+							</td>
+	
+							<td rowspan="1">
+									&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="1">
+								<a href="#property_detail_mplsTunnelHopIpv6addr">
+									mplsTunnelHopIpv6addr
+								</a>
+							</td>
+	
+									<td>
+										<a href="#property_summary">
+											mplsTunnelHopIpv6Addr
+										</a>
+									</td>
+	
+							<td rowspan="1">
+								property (<a href="#property_summary">get</a> / <a href="#property_summary">set</a>)
+							</td>
+	
+							<td rowspan="1">
+									Long
+							</td>
+	
+							<td rowspan="1">
+									&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="1">
+								<a href="#property_detail_mplsTunnelHopIpv6prefixlen">
+									mplsTunnelHopIpv6prefixlen
+								</a>
+							</td>
+	
+									<td>
+										<a href="#property_summary">
+											mplsTunnelHopIpv6Prefixlen
+										</a>
+									</td>
+	
+							<td rowspan="1">
+								property (<a href="#property_summary">get</a> / <a href="#property_summary">set</a>)
+							</td>
+	
+							<td rowspan="1">
+									Integer
+							</td>
+	
+							<td rowspan="1">
+									&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="1">
+								<a href="#property_detail_mplsTunnelHopLspId">
+									mplsTunnelHopLspId
+								</a>
+							</td>
+	
+									<td>
+										<a href="#property_summary">
+											mplsTunnelHopLspId
+										</a>
+									</td>
+	
+							<td rowspan="1">
+								property (<a href="#property_summary">get</a> / <a href="#property_summary">set</a>)
+							</td>
+	
+							<td rowspan="1">
+									Integer
+							</td>
+	
+							<td rowspan="1">
+									&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="1">
+								<a href="#property_detail_mplsTunnelHopPathOptionName">
+									mplsTunnelHopPathOptionName
+								</a>
+							</td>
+	
+									<td>
+										<a href="#property_summary">
+											mplsTunnelHopPathOptionName
+										</a>
+									</td>
+	
+							<td rowspan="1">
+								property (<a href="#property_summary">get</a> / <a href="#property_summary">set</a>)
+							</td>
+	
+							<td rowspan="1">
+									String
+							</td>
+	
+							<td rowspan="1">
+									&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="1">
+								<a href="#property_detail_mplsTunnelHopRevPathExpLbl">
+									mplsTunnelHopRevPathExpLbl
+								</a>
+							</td>
+	
+									<td>
+										<a href="#property_summary">
+											mplsTunnelHopRevPathExpLbl
+										</a>
+									</td>
+	
+							<td rowspan="1">
+								property (<a href="#property_summary">get</a> / <a href="#property_summary">set</a>)
+							</td>
+	
+							<td rowspan="1">
+									Integer
+							</td>
+	
+							<td rowspan="1">
+									&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="1">
+								<a href="#property_detail_mplsTunnelHopRevPathExpLblType">
+									mplsTunnelHopRevPathExpLblType
+								</a>
+							</td>
+	
+									<td>
+										<a href="#property_summary">
+											mplsTunnelHopRevPathExpLblType
+										</a>
+									</td>
+	
+							<td rowspan="1">
+								property (<a href="#property_summary">get</a> / <a href="#property_summary">set</a>)
+							</td>
+	
+							<td rowspan="1">
+									Integer
+							</td>
+	
+							<td rowspan="1">
+									&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="1">
+								<a href="#property_detail_mplsTunnelHopRowStatus">
+									mplsTunnelHopRowStatus
+								</a>
+							</td>
+	
+									<td>
+										<a href="#property_summary">
+											mplsTunnelHopRowStatus
+										</a>
+									</td>
+	
+							<td rowspan="1">
+								property (<a href="#property_summary">get</a> / <a href="#property_summary">set</a>)
+							</td>
+	
+							<td rowspan="1">
+									int
+							</td>
+	
+							<td rowspan="1">
+									&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="1">
+								<a href="#property_detail_mplsTunnelHopStorageType">
+									mplsTunnelHopStorageType
+								</a>
+							</td>
+	
+									<td>
+										<a href="#property_summary">
+											mplsTunnelHopStorageType
+										</a>
+									</td>
+	
+							<td rowspan="1">
+								property (<a href="#property_summary">get</a> / <a href="#property_summary">set</a>)
+							</td>
+	
+							<td rowspan="1">
+									int
+							</td>
+	
+							<td rowspan="1">
+									&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="1">
+								<a href="#property_detail_mplsTunnelHopType">
+									mplsTunnelHopType
+								</a>
+							</td>
+	
+									<td>
+										<a href="#property_summary">
+											mplsTunnelHopType
+										</a>
+									</td>
+	
+							<td rowspan="1">
+								property (<a href="#property_summary">get</a> / <a href="#property_summary">set</a>)
+							</td>
+	
+							<td rowspan="1">
+									int
+							</td>
+	
+							<td rowspan="1">
+									&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="1">
+								<a href="#property_detail_mplsTunnelHopUnnumIfId">
+									mplsTunnelHopUnnumIfId
+								</a>
+							</td>
+	
+									<td>
+										<a href="#property_summary">
+											mplsTunnelHopUnnumIfID
+										</a>
+									</td>
+	
+							<td rowspan="1">
+								property (<a href="#property_summary">get</a> / <a href="#property_summary">set</a>)
+							</td>
+	
+							<td rowspan="1">
+									int
+							</td>
+	
+							<td rowspan="1">
+									&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="1">
+								<a href="#property_detail_mplsTunnelHopUnnumIfRouterId">
+									mplsTunnelHopUnnumIfRouterId
+								</a>
+							</td>
+	
+									<td>
+										<a href="#property_summary">
+											mplsTunnelHopUnnumIfRouterID
+										</a>
+									</td>
+	
+							<td rowspan="1">
+								property (<a href="#property_summary">get</a> / <a href="#property_summary">set</a>)
+							</td>
+	
+							<td rowspan="1">
+									long
+							</td>
+	
+							<td rowspan="1">
+									&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="1">
+								<a href="#property_detail_mplsTunnelHopUseExplicitLabel">
+									mplsTunnelHopUseExplicitLabel
+								</a>
+							</td>
+	
+									<td>
+										<a href="#property_summary">
+											mplsTunnelHopUseExplicitLabel
+										</a>
+									</td>
+	
+							<td rowspan="1">
+								property (<a href="#property_summary">get</a> / <a href="#property_summary">set</a>)
+							</td>
+	
+							<td rowspan="1">
+									int
+							</td>
+	
+							<td rowspan="1">
+									&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="1">
+								<a href="#property_detail_mplsTunnelHopUseRevPathExpLbl">
+									mplsTunnelHopUseRevPathExpLbl
+								</a>
+							</td>
+	
+									<td>
+										<a href="#property_summary">
+											mplsTunnelHopUseRevPathExpLbl
+										</a>
+									</td>
+	
+							<td rowspan="1">
+								property (<a href="#property_summary">get</a> / <a href="#property_summary">set</a>)
+							</td>
+	
+							<td rowspan="1">
+									int
+							</td>
+	
+							<td rowspan="1">
+									&nbsp;
+							</td>
+						</tr>
+	
+				</tbody>
+			</table>
+
+
+			<p id="identifier_detail" class="MainTableHeading">
+				Identifier Detail
+			</p>
+					<h3 id="identifier_detail_mplsTunnelHopListIndex">mplsTunnelHopListIndex</h3>
+					<h3 id="identifier_detail_mplsTunnelHopPathOptionIndex">mplsTunnelHopPathOptionIndex</h3>
+					<h3 id="identifier_detail_mplsTunnelHopIndex">mplsTunnelHopIndex</h3>
+
+
+			<p id="property_detail" class="MainTableHeading">
+				Property Detail
+			</p>
+				<h3 id="property_detail_mplsTunnelHopAddrType">mplsTunnelHopAddrType</h3>
+				<hr/>
+				<h3 id="property_detail_mplsTunnelHopIpv4addr">mplsTunnelHopIpv4addr</h3>
+				<hr/>
+				<h3 id="property_detail_mplsTunnelHopIpv4prefixLen">mplsTunnelHopIpv4prefixLen</h3>
+				<hr/>
+				<h3 id="property_detail_mplsTunnelHopIpv6addr">mplsTunnelHopIpv6addr</h3>
+				<hr/>
+				<h3 id="property_detail_mplsTunnelHopIpv6prefixlen">mplsTunnelHopIpv6prefixlen</h3>
+				<hr/>
+				<h3 id="property_detail_mplsTunnelHopAsNumber">mplsTunnelHopAsNumber</h3>
+				<hr/>
+				<h3 id="property_detail_mplsTunnelHopLspId">mplsTunnelHopLspId</h3>
+				<hr/>
+				<h3 id="property_detail_mplsTunnelHopType">mplsTunnelHopType</h3>
+				<hr/>
+				<h3 id="property_detail_mplsTunnelHopIncluedeExclude">mplsTunnelHopIncluedeExclude</h3>
+				<hr/>
+				<h3 id="property_detail_mplsTunnelHopPathOptionName">mplsTunnelHopPathOptionName</h3>
+				<hr/>
+				<h3 id="property_detail_mplsTunnelHopEntryPathComp">mplsTunnelHopEntryPathComp</h3>
+				<hr/>
+				<h3 id="property_detail_mplsTunnelHopRowStatus">mplsTunnelHopRowStatus</h3>
+				<hr/>
+				<h3 id="property_detail_mplsTunnelHopStorageType">mplsTunnelHopStorageType</h3>
+				<hr/>
+				<h3 id="property_detail_mplsTunnelHopUnnumIfId">mplsTunnelHopUnnumIfId</h3>
+				<hr/>
+				<h3 id="property_detail_mplsTunnelHopUnnumIfRouterId">mplsTunnelHopUnnumIfRouterId</h3>
+				<hr/>
+				<h3 id="property_detail_mplsTunnelHopUseExplicitLabel">mplsTunnelHopUseExplicitLabel</h3>
+				<hr/>
+				<h3 id="property_detail_mplsTunnelHopExplictLabelType">mplsTunnelHopExplictLabelType</h3>
+				<hr/>
+				<h3 id="property_detail_mplsTunnelHopExplictLabel">mplsTunnelHopExplictLabel</h3>
+				<hr/>
+				<h3 id="property_detail_mplsTunnelHopUseRevPathExpLbl">mplsTunnelHopUseRevPathExpLbl</h3>
+				<hr/>
+				<h3 id="property_detail_mplsTunnelHopRevPathExpLblType">mplsTunnelHopRevPathExpLblType</h3>
+				<hr/>
+				<h3 id="property_detail_mplsTunnelHopRevPathExpLbl">mplsTunnelHopRevPathExpLbl</h3>
+				<hr/>
+
+	</body>
+</html>

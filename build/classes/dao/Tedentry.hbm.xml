@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2011-3-8 22:00:57 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="dao.Tedentry" table="tedentry" catalog="test">
+        <composite-id name="id" class="dao.TedentryId">
+            <key-property name="teRouterId" type="string">
+                <column name="teRouterId" length="100" />
+            </key-property>
+            <key-property name="teLinkIdAddr" type="string">
+                <column name="teLinkIdAddr" length="100" />
+            </key-property>
+            <key-property name="teLocalId" type="string">
+                <column name="teLocalId" length="100" />
+            </key-property>
+            <key-property name="teRemoteId" type="string">
+                <column name="teRemoteId" length="100" />
+            </key-property>
+        </composite-id>
+        <property name="teLinkStateId" type="java.lang.Integer">
+            <column name="teLinkStateId" />
+        </property>
+        <property name="teAreaId" type="java.lang.Integer">
+            <column name="teAreaID" />
+        </property>
+        <property name="teLinkInformationSource" type="java.lang.Integer">
+            <column name="teLinkInformationSource" />
+        </property>
+        <property name="teLinkInformationData" type="string">
+            <column name="teLinkInformationData" length="100" />
+        </property>
+        <property name="teLinkType" type="java.lang.Integer">
+            <column name="teLinkType" />
+        </property>
+        <property name="teMetric" type="java.lang.Integer">
+            <column name="teMetric" />
+        </property>
+        <property name="teMaxBandwidth" type="java.lang.Long">
+            <column name="teMaxBandwidth" />
+        </property>
+        <property name="teMaxReservableBandwidth" type="java.lang.Long">
+            <column name="teMaxReservableBandwidth" />
+        </property>
+        <property name="teUnreservedBandwidthPri0" type="java.lang.Long">
+            <column name="teUnreservedBandwidthPri0" />
+        </property>
+        <property name="teUnreservedbandwidthPri1" type="java.lang.Long">
+            <column name="teUnreservedbandwidthPri1" />
+        </property>
+        <property name="teUnreservedbandwidthPri2" type="java.lang.Long">
+            <column name="teUnreservedbandwidthPri2" />
+        </property>
+        <property name="teUnreservedbandwidthPri3" type="java.lang.Long">
+            <column name="teUnreservedbandwidthPri3" />
+        </property>
+        <property name="teUnreservedbandwidthPri4" type="java.lang.Long">
+            <column name="teUnreservedbandwidthPri4" />
+        </property>
+        <property name="teUnreservedbandwidthPri5" type="java.lang.Long">
+            <column name="teUnreservedbandwidthPri5" />
+        </property>
+        <property name="teUnreservedbandwidthPri6" type="java.lang.Long">
+            <column name="teUnreservedbandwidthPri6" />
+        </property>
+        <property name="teUnreservedbandwidthPri7" type="java.lang.Long">
+            <column name="teUnreservedbandwidthPri7" />
+        </property>
+        <property name="teAdministrativeGroup" type="java.lang.Integer">
+            <column name="teAdministrativeGroup" />
+        </property>
+        <property name="teCost" type="java.lang.Integer">
+            <column name="teCost" />
+        </property>
+        <property name="telinkProtectonType" type="java.lang.Integer">
+            <column name="telinkProtectonType" />
+        </property>
+        <property name="username" type="string">
+            <column name="username" length="20" />
+        </property>
+    </class>
+</hibernate-mapping>

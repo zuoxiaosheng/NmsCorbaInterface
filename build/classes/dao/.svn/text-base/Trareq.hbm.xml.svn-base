@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2011-3-8 22:00:57 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="dao.Trareq" table="trareq" catalog="test">
+        <composite-id name="id" class="dao.TrareqId">
+            <key-property name="mplsTunnelIndex" type="int">
+                <column name="mplsTunnelIndex" />
+            </key-property>
+            <key-property name="mplsTunnelInstance" type="int">
+                <column name="mplsTunnelInstance" />
+            </key-property>
+            <key-property name="ingressLsrid" type="string">
+                <column name="ingressLSRId" length="100" />
+            </key-property>
+            <key-property name="egressLsrid" type="string">
+                <column name="egressLSRId" length="100" />
+            </key-property>
+        </composite-id>
+        <property name="setupPrio" type="int">
+            <column name="setupPrio" not-null="true" />
+        </property>
+        <property name="bandwidth" type="long">
+            <column name="bandwidth" not-null="true" />
+        </property>
+        <property name="includeAnyAffinity" type="java.lang.Integer">
+            <column name="includeAnyAffinity" />
+        </property>
+        <property name="includeAllAffinity" type="java.lang.Integer">
+            <column name="includeAllAffinity" />
+        </property>
+        <property name="excludeAnyAffinity" type="java.lang.Integer">
+            <column name="excludeAnyAffinity" />
+        </property>
+        <property name="maximumHopmount" type="java.lang.Integer">
+            <column name="maximumHopmount" />
+        </property>
+        <property name="protection" type="java.lang.Integer">
+            <column name="protection" />
+        </property>
+        <property name="switchingType" type="java.lang.Integer">
+            <column name="switchingType" />
+        </property>
+        <property name="operatestate" type="int">
+            <column name="operatestate" not-null="true" />
+        </property>
+        <property name="hoptableindex" type="java.lang.Integer">
+            <column name="hoptableindex" />
+        </property>
+        <property name="encodingType" type="java.lang.Integer">
+            <column name="encodingType" />
+        </property>
+    </class>
+</hibernate-mapping>
